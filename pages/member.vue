@@ -53,9 +53,15 @@ export default {
         grade: '2016级',
         desc: 'Web安全 / 字节跳动 / 前端开发',
         mail: 'dyboy2017@qq.com'
+      },{
+        avatar: 'https://q1.qlogo.cn/g?b=qq&nk=876707908&s=160',
+        id: 'Haochen',
+        grade: '2016级',
+        desc: '趋势科技 / 手机电脑Web前端后端都会写一点的开发',
+        mail: 'jhc_98219@live.com'
       }, {
         avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1109633841&s=160',
-        id: '海钰',
+        id: 'Xx.',
         grade: '2016级',
         desc: '单位人员',
         mail: 'xhy147159@qq.com'
