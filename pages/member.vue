@@ -28,7 +28,7 @@ export default {
         id: 'Yunen',
         grade: '2018级',
         desc: '前副社长 / Web安全菜狗 / 鹅厂',
-        mail: '2865859175@qq.com'
+        mail: 'admin@0x002.com'
       }, {
         avatar: 'https://q1.qlogo.cn/g?b=qq&nk=939646437&s=160',
         id: '正元',
