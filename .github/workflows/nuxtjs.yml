@@ -74,3 +74,14 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: ./dist # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
+      - name: Push to Yunen Private Repo(for vercel)
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: './dist'
+          destination-github-username: 'Yunen'
+          destination-repository-name: 'Homepage'
+          user-email: admin@cquisa.com
+          target-branch: gh-pages
+          target-directory: ""
