@@ -80,7 +80,7 @@ jobs:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
           source-directory: './dist'
-          destination-github-username: 'Yunen'
+          destination-github-username: 'HackerYunen'
           destination-repository-name: 'Homepage'
           user-email: admin@cquisa.com
           target-branch: gh-pages
